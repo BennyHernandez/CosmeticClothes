@@ -23,6 +23,7 @@ import java.util.stream.Collectors;
 @Mod("cosmeticclothes")
 public class CosmeticClothes
 {
+    public static final String MODID = "cosmeticclothes";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 

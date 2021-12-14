@@ -1,5 +1,6 @@
 package com.bennyhernandez.cosmeticclothes.common;
 
+import com.bennyhernandez.cosmeticclothes.CosmeticClothes;
 import com.bennyhernandez.cosmeticclothes.common.item.TestBodyItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -24,7 +25,7 @@ public class CosmeticClothesRegistry {
     }
 
     private static  void register(Item item, String name, IForgeRegistry<Item> registry) {
-        item.setRegistryName("armouroverlays", name);
+        item.setRegistryName(CosmeticClothes.MODID, name);
         registry.register(item);
     }
 }
