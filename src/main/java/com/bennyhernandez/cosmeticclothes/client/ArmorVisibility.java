@@ -1,0 +1,1 @@
+package com.bennyhernandez.cosmeticclothes.client;
